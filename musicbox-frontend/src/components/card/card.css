@@ -1,7 +1,7 @@
 .card-container {
   display: flex;
   justify-content: space-evenly;
-  width: 35%;
+  width: 30%;
   height: 280px;
   background: rgb(229, 231, 231);
   align-items: center;

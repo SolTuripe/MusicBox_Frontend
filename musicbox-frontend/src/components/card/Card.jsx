@@ -11,10 +11,18 @@ const Card = ({ artist, image, title, genre, year, format, price, test }) => {
         <div className="artist">
           <h1>{artist}</h1>
         </div>
-        <p>Genre: {genre}</p>
-        <p>Format: {format}</p>
-        <p>Album title: {title}</p>
-        <p>Year: {year}</p>
+        <p>
+          <b>Genre:</b> {genre}
+        </p>
+        <p>
+          <b>Format:</b> {format}
+        </p>
+        <p>
+          <b>Album title:</b> {title}
+        </p>
+        <p>
+          <b>Year:</b> {year}
+        </p>
         <button className="btnBuy">{`Buy for: ${price}€`}</button>
       </div>
     </div>
