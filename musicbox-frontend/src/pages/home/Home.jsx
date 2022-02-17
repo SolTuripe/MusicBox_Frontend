@@ -1,4 +1,5 @@
 import axios from "axios";
+import "./home.css";
 import { useEffect, useState } from "react";
 import "../../App.css";
 import Card from "../../Components/card/Card";
@@ -23,16 +24,38 @@ const Home = () => {
 
     return products.map(
       ({ id, artist, image, title, genre, year, format, price }) => (
-        <Card
-          key={id}
-          artist={artist}
-          image={image}
-          title={title}
-          genre={genre}
-          year={year}
-          format={format}
-          price={price}
-        />
+        <>
+          <Card
+            key={id}
+            artist={artist}
+            image={image}
+            title={title}
+            genre={genre}
+            year={year}
+            format={format}
+            price={price}
+          />
+          <Card
+            key={id}
+            artist={artist}
+            image={image}
+            title={title}
+            genre={genre}
+            year={year}
+            format={format}
+            price={price}
+          />
+          <Card
+            key={id}
+            artist={artist}
+            image={image}
+            title={title}
+            genre={genre}
+            year={year}
+            format={format}
+            price={price}
+          />
+        </>
       )
     );
   };
@@ -40,7 +63,9 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <div className="cards-container">{renderProducts()}</div>
+      <div className="cards-wrapper">
+        <div className="cards-container">{renderProducts()}</div>
+      </div>
     </div>
   );
 };

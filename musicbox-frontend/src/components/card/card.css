@@ -1,18 +1,39 @@
 .card-container {
   display: flex;
-  justify-content: space-evenly;
-  width: 30%;
-  height: 280px;
+  flex-direction: column;
+  width: 250px;
+  padding: 20px;
   background: rgb(229, 231, 231);
-  align-items: center;
-  border-radius: 20px;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.img-container > button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.img-container image {
+  cursor: pointer;
+  width: 100%;
+}
+
+.artist {
+  margin: 0;
+  margin-bottom: 20px;
+  align-self: center;
 }
 
 .image {
   border-radius: 20px;
-  width: 230px;
-  height: 230px;
+  width: 100%;
+}
+
+.text-container h1 {
+  display: flex;
 }
 
 .btnBuy {

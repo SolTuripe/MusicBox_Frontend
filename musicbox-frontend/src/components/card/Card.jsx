@@ -1,16 +1,27 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./card.css";
 
-const Card = ({ artist, image, title, genre, year, format, price, test }) => {
+const Card = ({ artist, image, title, genre, year, format, price }) => {
+  const navigate = useNavigate();
+
   return (
     <div className="card-container">
+      <h1 className="artist">{artist}</h1>
+
       <div className="img-container">
-        <img className="image" src={image} alt="" />
+        <button
+          onClick={() =>
+            navigate("show", {
+              state: { artist, image, title, genre, year, format, price },
+            })
+          }
+        >
+          <img className="image" src={image} alt="" data-testid="image" />
+        </button>
       </div>
+
       <div className="text-container">
-        <div className="artist">
-          <h1>{artist}</h1>
-        </div>
         <p>
           <b>Genre:</b> {genre}
         </p>

@@ -1,21 +1,34 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import "./show.css";
 
 const Show = () => {
+  const { state } = useLocation();
+
+  const { artist, image, title, genre, year, format, price } = state;
+
   return (
     <div className="container-show">
       <div className="container-img">
-        <img src={require("../../assets/img/retrato.jpeg")} alt="" />
+        <img src={image} alt="" />
       </div>
       <div className="container-text">
         <div className="artist">
-          <h1>Metallica</h1>
+          <h1>{artist}</h1>
         </div>
-        <p>Nombre de album</p>
-        <p>Año</p>
-        <p>Genero</p>
-        <p>Formato</p>
-        <p>Precio</p>
+        <p>
+          <b>Genre:</b> {genre}
+        </p>
+        <p>
+          <b>Format:</b> {format}
+        </p>
+        <p>
+          <b>Title:</b> {title}
+        </p>
+        <p>
+          <b>Year:</b> {year}
+        </p>
+        <button className="btnBuy">{`Buy for: ${price}€`}</button>
       </div>
     </div>
   );
