@@ -1,7 +1,13 @@
 import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Layout from "../src/components/layout/Layout";
 
 function App() {
-  return <div className="App">holis</div>;
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}></Route>
+    </Routes>
+  );
 }
 
 export default App;
