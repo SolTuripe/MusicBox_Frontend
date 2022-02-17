@@ -2,8 +2,9 @@ import axios from "axios";
 import "./home.css";
 import { useEffect, useState } from "react";
 import "../../App.css";
-import Card from "../../Components/card/Card";
-import Hero from "../../Components/hero/Hero";
+import Card from "../../components/card/Card";
+import Hero from "../../components/hero/Hero";
+import apiServer from "../../Global";
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -11,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
     setLoading(true);
-    axios.get("http://localhost:8080/products").then((res) => {
+    axios.get(apiServer).then((res) => {
       setProducts(res.data);
       setLoading(false);
     });

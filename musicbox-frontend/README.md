@@ -3,8 +3,8 @@
 This project is part of a hackathon that took place on february 16 and 17 \
 We have to create a marketplace with the minimum viable product:
 
-* A home page with a list of all ads
-* A show page that shows more information about the ad
+- A home page with a list of all ads
+- A show page that shows more information about the ad
 
 In this repository we create the User Interface for our Music Box marketplace \
 [You can access the back of Music Box here](https://github.com/SolTuripe/musicbox-backend)
@@ -16,8 +16,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 We use React, a Javascript library that can build user interface components.
 These componentes are reusable bits of code made with JavaScript and HTML.
 CSS is included to make the style of the web.
-
- 
 
 The project also has the following dependecies:
 
@@ -32,11 +30,7 @@ The project also has the following dependecies:
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
 
-
-
-
-* You can clone the repository here: https://github.com/zizi21v/MusicBox_Frontend
-
+- You can clone the repository here: https://github.com/zizi21v/MusicBox_Frontend
 
 # Getting Started with Create React App
 
@@ -59,8 +53,6 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-
 
 ## For future versions
 
@@ -90,27 +82,18 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-
-
-
 ## Authors 👩‍💻
 
-* [Sol Turipe](https://github.com/SolTuripe)
-* [Laura Farrer](https://github.com/laurasoad)
-* [Sandra Barrachina](https://github.com/Sbarrachina)
-* [Dargy Mogollón](https://github.com/DargyJML)
-* [Erika Prieto](https://github.com/Eriry930)
-* [Christian Bazan](https://github.com/Infestas36)
-* [Valeria Ziegler](https://github.com/zizi21v)
+- [Sol Turipe](https://github.com/SolTuripe)
+- [Laura Farrer](https://github.com/laurasoad)
+- [Sandra Barrachina](https://github.com/Sbarrachina)
+- [Dargy Mogollón](https://github.com/DargyJML)
+- [Erika Prieto](https://github.com/Eriry930)
+- [Christian Bazan](https://github.com/Infestas36)
+- [Valeria Ziegler](https://github.com/zizi21v)
 
 ## Gratitude 🎁
 
-Tell others about this project 📢  \
+Tell others about this project 📢 \
 Support our projects ⭐ \
 Thank you very much to all the organizations that made this hackathon possible, especially to Factoría F5 and Adevinta Spain 💜
-
-
-
-
-
-
