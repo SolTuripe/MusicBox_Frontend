@@ -4,6 +4,7 @@ import Layout from "../src/components/layout/Layout";
 import Home from "./pages/home/Home";
 import Show from "./pages/show/Show";
 
+
 function App() {
   return (
     <Routes>
@@ -12,6 +13,7 @@ function App() {
         <Route path="show" element={<Show />} />
       </Route>
     </Routes>
+    
   );
 }
 
