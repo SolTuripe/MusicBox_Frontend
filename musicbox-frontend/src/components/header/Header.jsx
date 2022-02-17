@@ -1,7 +1,7 @@
 import React from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import "./header.modules.css";
+import "./header.css";
 
 const Header = () => {
   return (
