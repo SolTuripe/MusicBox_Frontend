@@ -1,7 +1,10 @@
 import "../../App.css";
+import Card from "../../components/card/Card";
 
 const Home = () => {
-  return <div>Holi Coders</div>;
+  return <div>
+    <Card/> 
+  </div>;
 };
 
 export default Home;
