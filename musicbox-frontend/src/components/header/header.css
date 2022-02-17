@@ -1,4 +1,29 @@
 .Header {
   display: flex;
   flex-direction: row;
+  justify-content: center;  
+  padding-right: 6%;
 }
+
+.Header.Text {
+  font-family: 'Chicle', cursive;
+  font-family: 'Rubik Mono One', sans-serif;
+  font: size 250px;
+  font-weight: 900;
+  
+  
+}
+
+.Logo{
+  width: 100px;
+  height: auto;
+}
+
+.Header-Icons{
+  width: 30px;
+  height: auto;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
