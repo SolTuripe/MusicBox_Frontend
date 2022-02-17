@@ -1,20 +1,19 @@
 import React from "react";
 import "./card.css";
 
-const Card = () => {
+const Card = ({artist, image, title, genre, year, format, price}) => {
   return <div className="card-container">
     <div className="img-container">
-      <img href="https://www.purina-latam.com/sites/g/files/auxxlc391/files/purina-brand-que-saber-de-los-gatitos-bebes.jpg">
+      <img src={image}>
       </img>
     </div>
     <div className="text-container">
-      <p>Metallica</p>
-
-      <li>Metal</li>
-      <li>Disco de acetato</li>
-      <li>Master of Puppets</li>
-      <li>1986</li>
-      <li>15</li>
+      <h1>{artist}</h1>
+      <li>{genre}</li>
+      <li> {format}</li>
+      <li>{title}</li>
+      <li>{year}</li>
+      <li>{price}</li>
     </div>
   </div>;
 };
