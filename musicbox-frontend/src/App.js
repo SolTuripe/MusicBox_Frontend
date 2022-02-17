@@ -1,17 +1,17 @@
-
-import './App.css';
-import {Header} from "./Components/Pages/Header/Header"
-import {Giro} from "./Components/Pages/Hero/Hero"
-import {Footer} from "./Components/Pages/Footer/Footer"
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Layout from "../src/Components/layout/Layout";
+import Home from "./pages/home/Home";
+import Show from "./pages/show/Show";
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <Giro/>
-      <Footer/>
-
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="show" element={<Show />} />
+      </Route>
+    </Routes>
   );
 }
 
