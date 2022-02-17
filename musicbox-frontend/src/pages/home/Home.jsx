@@ -24,38 +24,16 @@ const Home = () => {
 
     return products.map(
       ({ id, artist, image, title, genre, year, format, price }) => (
-        <>
-          <Card
-            key={id}
-            artist={artist}
-            image={image}
-            title={title}
-            genre={genre}
-            year={year}
-            format={format}
-            price={price}
-          />
-          <Card
-            key={id}
-            artist={artist}
-            image={image}
-            title={title}
-            genre={genre}
-            year={year}
-            format={format}
-            price={price}
-          />
-          <Card
-            key={id}
-            artist={artist}
-            image={image}
-            title={title}
-            genre={genre}
-            year={year}
-            format={format}
-            price={price}
-          />
-        </>
+        <Card
+          key={id}
+          artist={artist}
+          image={image}
+          title={title}
+          genre={genre}
+          year={year}
+          format={format}
+          price={price}
+        />
       )
     );
   };
