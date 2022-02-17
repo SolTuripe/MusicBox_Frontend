@@ -1,8 +1,9 @@
+import React from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import "./header.module.css";
+import "./header.css";
 
-export function Header() {
+const Header = () => {
   return (
     <div className="Header">
       <BiSearchAlt className="Header-Icons" />
@@ -15,4 +16,6 @@ export function Header() {
       <AiOutlineShoppingCart className="Header-Icons" />
     </div>
   );
-}
+};
+
+export default Header;
