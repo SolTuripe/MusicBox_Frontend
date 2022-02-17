@@ -6,7 +6,7 @@ import "./header.css";
 const Header = () => {
   return (
       <div className="Header">
-        <BiSearchAlt className="Header-Icons" />
+        <BiSearchAlt className="Header-Iconsearch" />
         <h1 className="Header-Text">MUSIC</h1>
         <img
           className="Logo"
