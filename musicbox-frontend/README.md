@@ -32,10 +32,16 @@ The project also has the following dependecies:
 
 - You can clone the repository here: https://github.com/zizi21v/MusicBox_Frontend
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
-- First step: cd musicbox-frontend
-- Then, follow the instructions to run the scripts that will deploy the app:
+- First step npm install
+- Second step cd musicbox-frontend
+
+## Page View
+
+<p align="center">
+<img src="./src/assets/img/pageview.jpg" width=65%>
+</p>
 
 ## Available Scripts
 
