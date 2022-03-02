@@ -6,9 +6,9 @@ const Hero = () => {
     <div className="container">
       <div className="contenedor head">
         <h1 className="titulo">Find your favorite artist</h1>
-        <p className="copy">
+        <b className="copy">
           Lorem, ipsum dolor sit amet consectetur adipisicing.
-        </p>
+        </b>
       </div>
     </div>
   );
