@@ -37,10 +37,10 @@ The project also has the following dependecies:
 - First step npm install
 - Second step cd musicbox-frontend
 
-## Page View 📷
+## Demo of the proyect 🎥
 
 <p align="center">
-<img src="musicbox-frontend/src/assets/img/pageview.jpg" width=65%>
+<img src="musicbox-frontend/src/assets/img/musicbox.gif" alt="animated" width=85% />
 </p>
 
 ## Available Scripts ✔
