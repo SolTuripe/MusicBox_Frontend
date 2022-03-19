@@ -11,7 +11,7 @@ In this repository we create the User Interface for our Music Box marketplace \
 
 ## Project Setup 📌
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 We use React, a Javascript library that can build user interface components.
 These componentes are reusable bits of code made with JavaScript and HTML.
@@ -30,7 +30,7 @@ The project also has the following dependecies:
     "react-scripts": "5.0.0",
     "web-vitals": "^2.1.4"
 
-- You can clone the repository here: https://github.com/zizi21v/MusicBox_Frontend
+- You can clone the repository here: https://github.com/SolTuripe/MusicBox_Frontend.git
 
 ## Getting Started with Create React App 🚀
 
